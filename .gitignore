@@ -1,0 +1,5 @@
+# Ignore some of the files used for testing
+
+*_Rfam.gff
+*_contigs.fasta
+*_contigs.fasta.fai
