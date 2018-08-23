@@ -1,8 +1,14 @@
 #!/usr/bin/env python
 
+import argparse
 import os
 import subprocess
 import io
+
+arg_parser = argparse.ArgumentParser()
+arg_parser.add_argument("-h", help = "Show this message and exit.")
+arg_parser.add_argument("-p", "--pattern", help = "String to look for.")
+arg_parser.parse_args()
 
 directory = os.path.basename(os.getcwd())
 
